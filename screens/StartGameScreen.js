@@ -1,6 +1,8 @@
-import { TextInput, Button, View, StyleSheet } from 'react-native'
+import { useState } from 'react';
+
+import { TextInput, Button, View, StyleSheet } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import PrimaryButton from '../components/PrimaryButtons'
+import PrimaryButton from '../components/PrimaryButtons';
 
 function StartGameScreen() {
   return (
